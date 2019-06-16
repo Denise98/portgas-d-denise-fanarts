@@ -1,0 +1,416 @@
+*{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	}
+
+	body{
+		/*background-image: url("img/tile10.jpg");*/
+		display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	
+	
+	}
+
+	.form1{
+			width: 300px;
+			height: 450px;
+			display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+	background-color: rgba(31, 188, 205, 0.6);
+	border-radius: 30px;
+	font-size: 21px;
+}
+
+.form2{
+		background-color: rgba(31, 188, 205, 0.8);
+			text-align: center;
+			border-radius: 30px;
+		font-size: 20px;
+		padding: 20px;
+	}
+
+	.cerrar{
+		background-color: rgb(245,105,193);
+		width: 136px;
+			height: 43px;
+			border-radius: 30px;
+			font-size: 21px;
+	}
+
+	.form{
+		background-color: rgba(31, 188, 205, 0.8);
+			text-align: center;
+			border-radius: 30px;
+			padding: 20px;
+	}
+
+	.edit{
+		background-color: rgb(245,105,193);
+		width: 136px;
+			height: 43px;
+			border-radius: 30px;
+			font-size: 21px;
+	}
+
+	h3{
+			height: 31px;
+			background-color: rgba(255, 255, 255, 0.8);
+			border-radius: 30px;
+			width: 220px;
+			text-align: center;
+		}
+
+	.h3{
+			height: 31px;
+			background-color: rgba(135, 94, 213, 0.8);
+			border-radius: 30px;
+			width: 220px;
+			text-align: center;
+		}
+
+		a{
+			text-decoration:none;
+			color: black;
+		}
+
+		.añadir{
+			background-color: rgb(245,105,193);
+		width: 99px;
+			height: 43px;
+			border-radius: 30px;
+			font-size: 21px;
+		}
+
+		#editar{
+			color: green;
+		}
+
+		#borrar{
+			color: red;
+		}
+
+		#com{
+			color: purple;
+		}
+
+		#dibujo{
+			color: purple;
+		}
+
+
+		.td{
+			padding: 15px;
+		}
+
+		.cerrar2{
+			background-color: rgb(150, 38, 198);
+			width: 136px;
+			height: 43px;
+			border-radius: 30px;
+			font-size: 21px;
+		}
+
+		.cerrar3{
+		background-color: rgb(245,105,193);
+		width: 136px;
+			height: 43px;
+			border-radius: 30px;
+			font-size: 20px;
+	}
+
+	.paginacion {
+    margin:20px 0;
+}
+ 
+.paginacion ul {
+    list-style:none;
+    text-align: center;
+}
+ 
+.paginacion ul li {
+    display:inline-block;
+    margin-right:10px;
+}
+ 
+.paginacion ul li a {
+    display:block;
+    padding:10px 20px;
+    color:#fff;
+    background:#024959;
+    text-decoration: none;
+}
+ 
+.paginacion ul li a:hover {
+    background:#037E8C;
+}
+ 
+.paginacion ul li .active {
+    background:#037E8C;
+    font-weight:bold;
+}
+
+.wrapper{
+	display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		background-color: rgba(31, 188, 205, 0.8);
+		border-radius: 30px;
+		align-content: center;
+		align-items: center;
+		width: 100%;
+}
+
+.only{
+		display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	background-color: rgba(181, 108, 208, 0.8);
+			text-align: center;
+			border-radius: 30px;
+	font-size: 26px;
+	}
+
+	.volver{
+		height: 31px;
+			background-color: rgba(255, 255, 255, 0.8);
+			border-radius: 30px;
+			width: 220px;
+			text-align: center;
+	}
+
+	.comentario{
+		background-color: rgba(109, 207, 196, 0.8);
+			text-align: center;
+			border-radius: 30px;
+	font-size: 20px;
+	margin: 26px;
+	padding: 40px;
+	}
+
+	.h3-3{
+		color:rgb(105,69,248);
+	}
+
+		.form3{
+			width: 300px;
+			height: 225px;
+			display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+	background-color: rgba(31, 188, 205, 0.8);
+	border-radius: 30px;
+	font-size: 21px;
+		}
+
+		#entrar{
+			background-color: rgb(150, 38, 198);
+			width: 97px;
+			height: 34px;
+			border-radius: 30px;
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+			font-size: 21px;
+		}
+
+		#register{
+			background-color: rgb(217, 210, 87);
+			width: 119px;
+			height: 29px;
+			border-radius: 30px;
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+			font-size: 21px;
+		}
+
+		.h1-2{
+			height: 51px;
+			background-color: rgba(218, 78, 204, 0.8);
+			width: 369px;
+			text-align: center;
+			border-radius: 30px;
+		}
+
+		.añadir1{
+			background-color: rgb(150, 38, 198);
+			width: 136px;
+			height: 43px;
+			border-radius: 30px;
+			font-size: 21px;
+		}
+
+		.h3-2{
+		height: 31px;
+			background-color: rgba(135, 94, 213, 0.8);
+			border-radius: 30px;
+			width: 220px;
+			text-align: center;
+		}
+
+		.h1{
+			height: 51px;
+			background-color: rgba(218, 78, 204, 0.8);
+			width: 332px;
+			text-align: center;
+			border-radius: 30px;
+		}
+
+		.header{
+	display: flex;
+	flex-wrap: nowrap;
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	background: -webkit-linear-gradient(right,#23D5AB 2%,#23A6D5 20%,#EE7752, #E73C7E);
+	min-height: 90px;
+	align-items: center;
+	}
+
+.accederCuenta{
+		background-color: rgb(191,46,211);
+		width: 136px;
+			height: 43px;
+			border-radius: 30px;
+			font-size: 21px;
+	}
+
+	.cuenta{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	align-content: center;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	align-items: center;
+	vertical-align: 50%;
+	}
+
+	.reg{
+			background-color: rgb(150, 38, 198);
+			width: 136px;
+			height: 43px;
+			border-radius: 30px;
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+			font-size: 21px;
+		}
+
+	.header1{
+		width: 25%;
+	}
+
+	.header2{
+		width: 50%;
+		font-size: 26px;
+		color:white;
+	}
+
+	.header3{
+		width: 15%;
+	}
+
+		.body1{
+			background-image: url("img/tile6.png");
+			font-size: 20px;
+		}
+
+		.body2{
+			background-image: url("img/tile10.jpg");
+			font-size: 20px;
+		}
+
+		.body3{
+			background-image: url("img/tile13.jpg");
+			font-size: 20px;
+		}
+
+		.body4{
+			background-image: url("img/tile4.jpg");
+			font-size: 20px;
+		}
+
+		.body5{
+			background-image: url("img/tile15.jpg");
+			font-size: 20px;
+		}
+
+		.body6{
+			background-image: url("img/tile19.jpg");
+			font-size: 20px;
+		}
+
+		.body7{
+			background-image: url("img/tile11.png");
+			font-size: 20px;
+		}
+
+		.body8{
+			background-image: url("img/tile18.jpg");
+			font-size: 20px;
+		}
+
+		.body9{
+			background-image: url("img/tile7.png");
+			font-size: 21px;
+		}
+
+		.body10{
+			background-image: url("img/tile9.jpg");
+			font-size: 21px;
+		}
+
+		.body11{
+			background-image: url("img/tile16.jpg");
+			font-size: 21px;
+		}
+
+		.body12{
+			background-image: url("img/tile14.jpg");
+			font-size: 21px;
+		}
+
+		.body13{
+			background-image: url("img/tile.png");
+			font-size: 26px;
+		}
+
+		.body14{
+			background-image: url("img/tile2.jpg");
+			background-size: cover;
+			font-size: 21px;
+		}
+
+		.body15{
+			background-image: url("img/tile8.png");
+			font-size: 26px;
+		}
+
+		.body16{
+		background-image: url("img/tile12.jpg");
+	}
+
+	.body17{
+		background-image: url("img/tile8.jpg");
+	}
+
+	.body18{
+		background-image: url("img/tile5.jpg");
+		font-size: 21px;
+		padding: 66px;
+	}
+
