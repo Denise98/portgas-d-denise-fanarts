@@ -8,7 +8,7 @@
 </head>
 <body class="body8">
 	<h1 class="">Editar Comentario</h1>
-	<h3><a href="../proyecto/index.php?mod=dibujo&ope=only&iddib=<?=$_GET['iddib'];?>">Volver atras</a></h3>
+	<h3><a href="../proyecto/index.php?mod=comentario&ope=only&iddib=<?=$_GET['iddib'];?>">Volver atras</a></h3>
 	<div class="form">
 	<form action="/proyecto/index.php?mod=comentario&ope=editUser&idcom=<?= $id?>" method="get" >
 
