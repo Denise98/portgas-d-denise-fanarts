@@ -37,6 +37,14 @@
 		padding: 20px;
 	}
 
+.form4{
+		background-color: rgba(31, 188, 205, 0.8);
+			text-align: center;
+			border-radius: 30px;
+		font-size: 20px;
+		padding: 70px;
+	}
+
 	.cerrar{
 		background-color: rgb(245,105,193);
 		width: 136px;
