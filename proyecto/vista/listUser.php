@@ -5,10 +5,10 @@
 		<?php 
 		//require_once "Database.php";
 
-		define("HOST","sql213.epizy.com");
-		define("NOMBRE_DB","epiz_24049628_fanart");
-		define("USUARIO_DB","epiz_24049628");
-		define("CLAVE_DB","HPoI9Nv4G7fOt");
+		define("HOST","localhost");
+		define("NOMBRE_DB","fanart");
+		define("USUARIO_DB","root");
+		define("CLAVE_DB","");
 
 
 		$conexion = new mysqli(HOST, USUARIO_DB,CLAVE_DB);
