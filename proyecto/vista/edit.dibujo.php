@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="estilos.css">
 </head>
 <body class="body7">
-	<h1>Editar notas</h1>
+	<h1>Editar dibujo</h1>
 	<h3><a href="../proyecto/index.php?mod=dibujo&ope=index&idus=<?=$_GET['idus'];?>">Volver atras</a></h3>
 	<div class="form">
 	<form action="/proyecto/index.php?mod=dibujo&ope=edit&iddib=<?= $id?>" method="post" enctype="multipart/form-data">
