@@ -11,7 +11,7 @@
 	<h3><a href="../proyecto/index.php?mod=usuario&ope=indexLogin">Volver atras</a></h3>
 
 
-	<div class="form">
+	<div class="form4">
 	<form action="/proyecto/index.php" method="get">
 		<input type="hidden" name="mod" value="usuario" />
 		<input type="hidden" name="ope" value="register" />
